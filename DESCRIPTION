@@ -1,0 +1,16 @@
+Package: monbart
+Type: Package
+Title: Implements a Bayesian additive regression tree (BART) model for binary outcomes that is monotone in one binary covariate
+Version: 1.0
+Date: 2022-04-15
+Author: Jared S. Murray
+Maintainer: Questions and comments to <jared.murray@mccombs.utexas.edu>
+Description: Implements a Bayesian additive regression tree (BART) model for binary outcomes that is monotone in one binary covariate.
+License: GPL-3
+Depends: Rcpp (>= 0.10.4)
+Imports: methods
+LinkingTo: Rcpp, RcppArmadillo
+NeedsCompilation: yes
+Packaged: 2018-05-14 23:21:20 UTC; jared
+RoxygenNote: 7.1.2
+Encoding: UTF-8 
