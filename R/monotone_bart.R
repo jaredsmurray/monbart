@@ -79,6 +79,6 @@ monotone_bart = function(y, z, x, xpred, nskip=5000, ndpost=5000, m = 50) {
   # P(Y|Z=0, X)
   pr0 = pr1*pnorm(fit.mono$postpred0)
   
-  return(list(pr0 = pr0[order(sort_ix),], pr1 = pr1[order(sort_ix),]))
+  return(list(pr0 = pr0, pr1 = pr1))
   
 }
