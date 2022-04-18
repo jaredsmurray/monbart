@@ -9,5 +9,5 @@ Papakostas, D., Hahn, P. R., Murray, J., Zhou, F., & Gerakos, J. (2021). [Do for
 
 ```r
 ## install.packages("devtools")
-devtools::install_github("jaredsmurray/modbart")
+devtools::install_github("jaredsmurray/monbart")
 ```
